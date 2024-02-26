@@ -4,69 +4,89 @@
     text-decoration: none
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-
+body{
+    min-height: 100vh;
+}
 header{
     background-color: black;
-    font-family: "Passion One", sans-serif;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 50px 0px 0px;
 }
 header > h1{
+    font-family: "Passion One",cursive;
+    font: bold;
+    font-size: 153px;
+    text-transform: uppercase;
    
-    font-size: 1.8em;
 
 }
 header>p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 header a{
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 header a:hover{
     text-decoration: underline;
 }
+span{
+    font-size: 1.7em;
+}
 
 main{
     font-family: "Sriracha", cursive;  
 }
+
+main p{
+    font-size: 53px;
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 2em;
+}
  
 main .foto01{
     background-image: url('imagens/background001.jpg');
-    height: 450px;
-    width: 100%;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 main .textoft01{
     background-color: rgba(0, 0, 0, 0.295);
-    color: white;
-    margin: 10px;
-    width: 200px;
-    height: 200px;
+    display: inline-block;
+    padding: 5px;
 }
 main .foto02{
     background-image: url('imagens/background002.jpg');
-    height: 450px;
-    width: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main .textoft02{
     background-color: rgba(0, 0, 0, 0.295);
-    color: white;
-    margin: 10px;
-    width: 200px;
-    height: 200px;
+    display: inline-block;
+    padding: 5px;
 }
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+  
+}
+
+
 
 
 footer{
